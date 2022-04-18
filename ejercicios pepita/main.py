@@ -1,0 +1,52 @@
+from aves import pepita, anastasia, roberta, juanita, chimuelo, hipo
+print("energia de pepita", pepita.energia)
+print("pepita come", pepita.comer(10))
+print("energia de pepita despues de comer", pepita.energia)
+print("pepita vuela", pepita.volar_en_circulos())
+print("energia de pepita despues de volar", pepita.energia)
+
+#cuanto le aumenta a pepita comer
+print("energia de pepita", pepita.energia)
+print("pepita come", pepita.comer(1))
+print("energia de pepita despues de comer", pepita.energia)
+
+# #cuanto le baja la energia
+print("pepita vuela", pepita.volar_en_circulos())
+print("energia de pepita despues de volar", pepita.energia)
+
+print(anastasia == pepita)
+print(anastasia.energia)
+print(anastasia)
+print(anastasia.comer(1))
+print(anastasia.energia)
+print(anastasia.volar_en_circulos())
+print(anastasia.energia)
+
+print(roberta)
+print(roberta == pepita)
+print(roberta.energia)
+print(roberta)
+print(roberta.comer(1))
+print(roberta.energia)
+print(roberta.volar_en_circulos())
+print(roberta.energia)
+print(roberta.escupir_fuego())
+print(roberta.energia)
+print(roberta.cantidad_dientes)
+
+print(pepita == juanita)
+print(pepita.esta_debil())
+print(pepita.energia)
+print(pepita.esta_feliz())
+print(hipo)
+print(hipo.equipo)
+print(hipo.el_equipo())
+print(hipo.agregar_animal(chimuelo))
+print(hipo.equipo)
+print(chimuelo.energia)
+hipo.entrenar_dragon(chimuelo)
+print(chimuelo.energia)
+print(roberta.energia)
+print(hipo.entrenar_equipo())
+print(roberta.energia)
+
