@@ -1,6 +1,6 @@
+sustituir = [" ", "_", ":"]
 import re
-sustituir=[" ", "_", ":"] 
 def reemplazar(string):
-    return re.sun(sustituir,"|", string)
+      return re.sub(sustituir, "|", string)
 
-print(reemplazar('messi es el mejor'))
+print(reemplazar("messi el mejor_del:mundo"))    
