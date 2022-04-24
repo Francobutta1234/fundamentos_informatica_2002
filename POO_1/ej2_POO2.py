@@ -14,7 +14,7 @@ class Golondrina:
       else:
         print ("no tiene energia suficiente para volar")
    
-  def equilibrio(self, energia):
+  def esta_en_equilibrio(self):
       if self.energia >= 150 and self.energia <= 300:
           print("esta en equilibrio")
       else:

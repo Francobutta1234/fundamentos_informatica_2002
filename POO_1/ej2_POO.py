@@ -1,3 +1,6 @@
+from fundamentos_informatica_2002.POO_1.ej3_POO2 import Ornitologo
+
+
 class Golondrina:
   def __init__(self, energia):
     self.energia = energia
