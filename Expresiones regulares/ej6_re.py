@@ -1,7 +1,7 @@
 import re
-def find_word(lista, frase):
-    return bool(re.search(lista in frase))
+def estan_enFrase(lista_strings, frase):
+    for string in lista_strings:
+        resultado =  bool(re.findall(string, frase))
+    return resultado
 
-listax= ["soy", "un", "maldito", "peda"]
-    
-print(find_word(listax,"ayer vi jugar a messi"))
+print(estan_enFrase(["hola", "como", "va"], "hola como va"))
