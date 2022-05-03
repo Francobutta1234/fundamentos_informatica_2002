@@ -4,4 +4,4 @@ def estan_enFrase(lista_strings, frase):
         resultado =  bool(re.findall(string, frase))
     return resultado
 
-print(estan_enFrase(["hola", "como", "va"], "hola como va"))
+print(estan_enFrase(["hola", "como", "va"], "hola franco como va"))

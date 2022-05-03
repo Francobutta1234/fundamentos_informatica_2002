@@ -1,4 +1,4 @@
-import re,glob
+import re
 def arranca_con_P(lista_str):
     resultado = []
     for string in lista_str:
