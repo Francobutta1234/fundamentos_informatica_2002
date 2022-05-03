@@ -1,4 +1,4 @@
-class Vehiculo:
+class MedioDeTransporte:
     def __init__(self, combustible):
         self.combustible = combustible
 
@@ -11,14 +11,14 @@ class Vehiculo:
     def cargar_combustible(self, cantidad):
         self.combustible += cantidad
     
-class Moto(Vehiculo):
+class Moto(MedioDeTransporte):
     def cantidad_maxima(self):
         return 2
 
     def recorrer(self, kms):
         self.combustible -= kms
 
-class Auto(Vehiculo):
+class Auto(MedioDeTransporte):
     def cantidad_maxima(self):
         return 5
 

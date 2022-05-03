@@ -1,6 +1,12 @@
-import re
+import re,glob
 def arranca_con_P(lista_str):
-    return (re.findall("[^P]/s[^P]", lista_str))
-
-lista=["Practica Python", "Practica C++", "Practica Fortran"]
+    resultado = []
+    for string in lista_str:
+        if re.findall("(P\w*) (P\w*)", string):
+            resultado.append(string)
+        else:
+            pass
+    return resultado
+    
+lista=["Practica Python", "Practica C++", "Practica Fortran", "Por Papa"]
 print(arranca_con_P(lista))

@@ -17,6 +17,7 @@ class Contador:
     def valorNuevo(self, nuevoValor):
         self.valor = nuevoValor
 
+
 contador = Contador(10)
 contador.inc()
 contador.inc()

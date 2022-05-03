@@ -1,6 +1,3 @@
-from fundamentos_informatica_2002.POO_1.ej3_POO2 import Ornitologo
-
-
 class Gorrion:
     def __init__(self):
         self.gramosActuales = 0
@@ -30,4 +27,5 @@ class Gorrion:
 
     def esta_en_equilibrio(self):
         return 0.5 <= self.css() <= 2
+   
                         
