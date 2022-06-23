@@ -16,6 +16,11 @@ class Ornitologo:
         [self.aves[i].volar(70) for i in range(len(self.aves))]
         [self.aves[i].comer(10) for i in range(len(self.aves))]
 
+ornitologo = Ornitologo()
+ornitologo.estudiarAve("Gorrion")
+ornitologo.estudiarAve("Gorrion")
+ornitologo.aves_en_estudio()  
+
 
         
 
