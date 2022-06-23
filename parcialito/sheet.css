@@ -1,10 +1,15 @@
 .titulo{
     background-color: rgb(244, 82, 82);
     color: blueviolet;
-    display: inline-flex;
-    padding-right: 50px;
     padding-left: 20px;
+    margin-left: -20px;
+    padding-right: 50px;
+    font: caption;
     font-size: xx-large;
+    display: inline-flex;
+    height: 1.3cm;
+    justify-content: center;
+    align-items: center;
 }
 
 .encabezado{
@@ -28,6 +33,11 @@
 .pie{
     background-color: blueviolet;
     color: white;
-    display: flex;
-    padding-left: 220px;
+    font: caption;
+    height: 1.3cm;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
+
+    
